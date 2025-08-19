@@ -20,16 +20,17 @@ const Landing = () => {
     <div className="h-screen max-w-full  bg-cover bg-center"
       style={{ backgroundImage: `url(${sevn})` }}>
 
+<div>  
+    <div className='text-white flex flex-col space-y-9 items-stretch ml-20 '>
 
-        <div className='text-white space-y-9 ml-64'>
-
-            <p className='text-2xl'>Leading the way with <br /> Technology that cares</p>
+            <p className='text-2xl mt-32'>Leading the way with <br /> Technology that cares</p>
             <span>Invitation that put you first</span>
-            <button className=' bg-blue-300 rounded-xl w-[160px] flex text-center items-center justify-center'>Exprole more <svg  className ="w-7 h-9 flex ml-4 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+       <button className=' bg-slate-100 rounded-xl w-[160px] flex text-center items-center justify-center p-1 text-black mt-9'>Explore more <svg  className ="w-7 h-9 flex ml-4 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
- </button>
+</svg> </button>
        </div>
+       </div>
+      
 
     </div>
    </div>
@@ -87,7 +88,7 @@ const Landing = () => {
 <div className='flex flex-col space-y-6'>
     <div>
         <h2 className='text-2xl'>Vehicle</h2>
-        <p>The S-class</p>
+        <p className='text-6xl'>The S-class</p>
     </div>
     <div>
         <span>Expressive design, first-class comfort, and innovative <br />safety technology.</span>
@@ -142,20 +143,20 @@ const Landing = () => {
             <div className='bg-black flex space-x-20 justify-center items-center h-screen text-white' >
                 <h2 className='text-3xl text-white'>More Information</h2>
                 <div className='flex flex-col space-y-3'>
-                    <span>Campany</span>
+                    <span className='text-white font-bold text-3xl'>Campany</span>
                     <span>Overview</span>
                     <span>Careers</span>
                     <span>Investors</span>
                     <span>Media Site</span>
                 </div>
                 <div className='flex flex-col space-y-3'> 
-                    <span>Knowledge</span>
+                    <span className='text-white font-bold text-3xl'>Knowledge</span>
                     <span>Dedicated to detail</span>
                     <span>Our history</span>
                     <span>Real Driving Emissions</span>
                 </div>
                 <div className='flex flex-col space-y-3'>
-                    <span>Business Services</span>
+                    <span className='text-white font-bold text-3xl'>Business Services</span>
                     <span>Fleet Sales</span>
                     <span>International Diplomatic Sales</span>
                     <span>Mercedes-Benz GUARD</span>
