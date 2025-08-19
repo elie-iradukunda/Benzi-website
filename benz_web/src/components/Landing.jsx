@@ -190,7 +190,7 @@ const Landing = () => {
         <span>Don't Sell My Personal Information (CCPA)</span>
         <span>Accessibility</span>
     </div>
-    <div>
+    <div className='text-white items-center text-center'>
         <span>Deutich | </span>
         <span>English</span>
     </div>
